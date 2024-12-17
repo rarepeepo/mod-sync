@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "modsync",
+  "version": "${version}",
+  "name": "Mod Sync",
+  "description": "Makes sure you always have the latest mods to play on your friend's server.",
+  "authors": [
+    "rarepeepo"
+  ],
+  "contact": {
+    "sources": "https://github.com/rarepeepo/mod-sync"
+  },
+  "license": "GPL-3.0-or-later",
+  "icon": "assets/modsync/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "modmenu": [ "rare.peepo.modsync.fabric.ModMenuImpl" ]
+  },
+  "mixins": [
+    "modsync.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "java": ">=17"
+  }
+}

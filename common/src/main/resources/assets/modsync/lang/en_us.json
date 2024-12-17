@@ -1,0 +1,18 @@
+{
+  "modsync.labelSettings"                   : "Mod Sync Settings",
+  "modsync.labelSyncUrl"                    : "Sync URL",
+  "modsync.urlField.tooltip"                : "The URL of the sync configuration file",
+  "modsync.queryingSyncUrl"                 : "Querying sync URL, please wait...",
+  "modsync.syncUrlIsNotWorking"             : "The configured sync URL is not working.",
+  "modsync.syncUrlIsWorking"                : "The configured sync URL is working.",
+  "modsync.testButton"                      : "Test URL",
+  "modsync.testButton.tooltip"              : "Click to test if the sync URL is working",
+  "modsync.labelSyncAction"                 : "When new files are available",
+  "modsync.actionButton"                    : "Action",
+  "modsync.actionButton.install"            : "Install",
+  "modsync.actionButton.install.tooltip"    : "Automatically installs new files when they are available.",
+  "modsync.actionButton.prompt"             : "Prompt",
+  "modsync.actionButton.prompt.tooltip"     : "Shows a dialog and asks for confirmation before installing or removing files.",
+  "modsync.actionButton.ignore"             : "Ignore",
+  "modsync.actionButton.ignore.tooltip"     : "Turns off syncing. No files will be downloaded or removed."
+}

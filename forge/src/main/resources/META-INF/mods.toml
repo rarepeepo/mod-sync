@@ -1,0 +1,21 @@
+modLoader = "javafml"
+loaderVersion = "[46,)"
+#issueTrackerURL = ""
+license = "GPL-3.0-or-later"
+
+[[mods]]
+modId = "modsync"
+version = "${version}"
+displayName = "Mod Sync"
+authors = "rarepeepo"
+description = '''
+Makes sure you always have the latest mods to play on your friend's server.
+'''
+logoFile = "assets/modsync/icon_256.png"
+
+[[dependencies.modsync]]
+modId = "forge"
+mandatory = true
+versionRange = "[46,)"
+ordering = "NONE"
+side = "BOTH"

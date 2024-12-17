@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "rare.peepo.modsync.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "plugin": "rare.peepo.modsync.ModSyncPlugin",
+  "minVersion": "0.8",
+  "client": [
+  ],
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
